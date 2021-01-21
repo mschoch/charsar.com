@@ -1,0 +1,45 @@
+.hero.is-link {
+    background-color: #82768b;
+}
+
+.navbar.is-link {
+    background-color: #82768b;
+}
+
+.hero-txt-col {
+    padding-top: 100px;
+}
+
+.hero-img-col {
+
+}
+
+.hero-img {
+    border-radius: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.about-img {
+    border-radius: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.columns.is-vcentered {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.about-text {
+    margin: 100px;
+}
+
+h3 {
+    margin: 20px;
+}
