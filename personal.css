@@ -1,9 +1,9 @@
 .hero.is-link {
-    background-color: #82768b;
+    background-color: #d4b8c9;
 }
 
 .navbar.is-link {
-    background-color: #82768b;
+    background-color: #d4b8c9;
 }
 
 .hero-txt-col {
@@ -19,7 +19,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 75%;
 }
 
 .about-img {
@@ -38,4 +38,18 @@
 
 h3 {
     margin: 20px;
+}
+
+.button.is-link {
+    background-color: #000000;
+    border-color: #000000;
+}
+
+.button.is-link:hover {
+    background-color: #333333;
+    border-color: #333333;
+}
+
+.footer .fa-circle {
+    color: #000000;
 }
