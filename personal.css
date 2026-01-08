@@ -6,6 +6,14 @@
     background-color: #d4b8c9;
 }
 
+.navbar-burger {
+    margin-left: 0 !important;
+}
+
+.navbar-burger span {
+    background-color: #333333 !important;
+}
+
 .hero-txt-col {
     padding-top: 50px;
 }
