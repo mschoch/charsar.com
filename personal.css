@@ -164,13 +164,8 @@ h3 {
     opacity: 0.15;
 }
 
-/* Ensure sections are positioned for corner accents */
-section.section {
-    position: relative;
-}
-
 /* Section divider lines */
-section:not(.hero)::before {
+section::before {
     content: '';
     position: absolute;
     top: 0;
