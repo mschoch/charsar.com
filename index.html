@@ -16,6 +16,13 @@
 </head>
 
 <body>
+<!-- Background Shapes -->
+<div class="bg-shapes">
+    <div class="shape shape-1"></div>
+    <div class="shape shape-2"></div>
+    <div class="shape shape-3"></div>
+</div>
+
 <!-- Navigation bar -->
 <nav class="navbar is-link is-fixed-top">
     <div class="navbar-brand">
@@ -64,7 +71,17 @@
                     </h2>
                 </div>
                 <div class="column hero-img-col">
-                    <img src="Charlene Sarmiento Portrait 2024-crop1.jpg" class="hero-img">
+                    <div class="about-image-wrapper">
+                        <div class="doodle doodle-circle"></div>
+                        <div class="doodle doodle-squiggle-1"></div>
+                        <div class="doodle doodle-dots">
+                            <span class="doodle-dot"></span>
+                            <span class="doodle-dot"></span>
+                            <span class="doodle-dot"></span>
+                        </div>
+                        <div class="doodle doodle-line"></div>
+                        <img src="Charlene Sarmiento Portrait 2024-crop1.jpg" class="hero-img">
+                    </div>
                 </div>
             </div>
         </div>
@@ -73,6 +90,8 @@
 
 <!-- About -->
 <section class="section" id="about">
+    <div class="corner-accent corner-accent-tl"></div>
+    <div class="corner-accent corner-accent-br"></div>
     <!-- Title -->
     <div class="section-heading">
         <h3 class="title is-2 has-text-centered">About Me</h3>
@@ -86,21 +105,33 @@
         <div class="column is-6 is-offset-3">
             <!-- Profile -->
 
-            <article class="message is-dark about-text">
+            <article class="message is-dark about-text" style="position: relative;">
+                <div class="accent-circle accent-1"></div>
+                <div class="accent-circle accent-2"></div>
                 <div class="message-body is-size-5">
                   I live at the intersection of business logic, strategy and creative storytelling. As an MBA graduate, I bring a unique level of critical thinking to the table. I align your MarComm and business goals into one cohesive plan, then I put that plan into action.
 I'm especially passionate about working with mission-driven companies and organizations and social enterprises—the kind of teams that are out there making communities stronger.
 
-                  Outside of work, you can find me baking desserts, thrifting, exploring farmers markets or planning my next trip. 
+                  Outside of work, you can find me baking desserts, thrifting, exploring farmers markets or planning my next trip.
                 </div>
             </article>
 
         </div>
     </div>
+    <div class="squiggle-divider">
+        <svg viewBox="0 0 1200 30" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0,15 Q150,5 300,15 T600,15 T900,15 T1200,15" stroke="#667eea" stroke-width="2" fill="none"/>
+        </svg>
+    </div>
 </section>
 
 <!-- Services -->
-<section class="section" id="skills">
+<section class="section skills" id="skills">
+    <div class="corner-accent corner-accent-tl"></div>
+    <div class="corner-accent corner-accent-br"></div>
+    <span class="star-accent star-1">&#10022;</span>
+    <span class="star-accent star-2">&#10023;</span>
+    <span class="star-accent star-3">&#10022;</span>
     <div class="container">
         <div class="section-heading">
             <h3 class="title is-2 has-text-centered">Skills</h3>
@@ -132,10 +163,17 @@ I'm especially passionate about working with mission-driven companies and organi
             </div>
         </div>
     </div>
+    <div class="squiggle-divider">
+        <svg viewBox="0 0 1200 30" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0,15 Q100,25 200,15 T400,15 T600,15 T800,15 T1000,15 T1200,15" stroke="#764ba2" stroke-width="2" fill="none"/>
+        </svg>
+    </div>
 </section>
 
 <!-- Portfolio -->
 <section class="section" id="portfolio">
+    <div class="corner-accent corner-accent-tl"></div>
+    <div class="corner-accent corner-accent-br"></div>
     <div class="container">
         <div class="section-heading">
             <h3 class="title is-2 has-text-centered">Portfolio</h3>
@@ -337,6 +375,11 @@ I'm especially passionate about working with mission-driven companies and organi
             </div>
         </div>
     </div>
+    <div class="squiggle-divider">
+        <svg viewBox="0 0 1200 30" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0,15 Q150,8 300,15 T600,15 T900,15 T1200,15" stroke="#f5576c" stroke-width="2" fill="none"/>
+        </svg>
+    </div>
 </section>
 
 <!-- Achievement Level -->
@@ -371,7 +414,9 @@ I'm especially passionate about working with mission-driven companies and organi
 
 
 <!-- Contact -->
-<section class="section" id="contact">
+<section class="section contact" id="contact">
+    <div class="corner-accent corner-accent-tl"></div>
+    <div class="corner-accent corner-accent-br"></div>
     <div class="container">
         <div class="section-heading">
             <h3 class="title is-2 has-text-centered">Contact</h3>
