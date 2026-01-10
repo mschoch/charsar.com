@@ -123,67 +123,6 @@ h3 {
     position: relative;
 }
 
-/* Hand-drawn elements around portrait */
-.about-image-wrapper {
-    position: relative;
-}
-
-.doodle {
-    position: absolute;
-    z-index: 0;
-}
-
-.doodle-circle {
-    width: 80px;
-    height: 80px;
-    border: 2px dashed #667eea;
-    border-radius: 50%;
-    top: -20px;
-    right: -20px;
-    opacity: 0.4;
-    animation: rotate 20s linear infinite;
-}
-
-.doodle-squiggle-1 {
-    top: 50%;
-    left: -30px;
-    width: 40px;
-    height: 60px;
-    border-left: 2px solid #f5576c;
-    border-radius: 50% 0 0 50%;
-    opacity: 0.3;
-}
-
-.doodle-dots {
-    bottom: -15px;
-    left: 20%;
-    display: flex;
-    gap: 8px;
-}
-
-.doodle-dot {
-    width: 6px;
-    height: 6px;
-    background: #764ba2;
-    border-radius: 50%;
-    opacity: 0.4;
-}
-
-.doodle-line {
-    bottom: 10%;
-    right: -25px;
-    width: 50px;
-    height: 2px;
-    background: linear-gradient(90deg, transparent, #667eea, transparent);
-    opacity: 0.4;
-    transform: rotate(-45deg);
-}
-
-@keyframes rotate {
-    from { transform: rotate(0deg); }
-    to { transform: rotate(360deg); }
-}
-
 /* Whimsical corner accents */
 .corner-accent {
     position: absolute;
